@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Advent Roofing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="logo-text">Advent <span>Roofing</span></div>
+                </div>
+                
+                <button class="mobile-menu-btn" id="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <nav class="nav-links" id="main-nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <div class="dropdown" id="services-dropdown">
+                        <a href="services.html" class="nav-link dropdown-toggle">
+                            Services <i class="fas fa-chevron-down dropdown-arrow"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="services.html#installation" class="dropdown-item">Roof Installation</a>
+                            <a href="services.html#repair" class="dropdown-item">Roof Repair</a>
+                            <a href="services.html#inspection" class="dropdown-item">Roof Inspection</a>
+                            <a href="services.html#gutter" class="dropdown-item">Gutter Systems</a>
+                            <a href="services.html#emergency" class="dropdown-item">Emergency Services</a>
+                        </div>
+                    </div>
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                    <a href="testimonials.html" class="nav-link">Testimonials</a>
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="animate-on-scroll">Contact Us</h1>
+            <p class="animate-on-scroll" style="animation-delay: 0.2s;">Get In Touch With Our Roofing Experts</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-form animate-on-scroll">
+                    <h2>Send Us a Message</h2>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="" disabled selected>Service Interested In</option>
+                                <option value="installation">Roof Installation</option>
+                                <option value="repair">Roof Repair</option>
+                                <option value="inspection">Roof Inspection</option>
+                                <option value="gutter">Gutter Systems</option>
+                                <option value="emergency">Emergency Services</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info animate-on-scroll" style="animation-delay: 0.3s;">
+                    <h2>Contact Information</h2>
+                    <p class="contact-description">Contact Advent Roofing today for a free consultation and estimate on your roofing project.</p>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Our Location</h3>
+                            <p>123 Roofing Street, Suite 100<br>New York, NY 10001</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone Numbers</h3>
+                            <p>Office: (555) 123-ROOF (7663)<br>Emergency: (555) 123-HELP (4357)<br>Fax: (555) 123-7664</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email Addresses</h3>
+                            <p>General: info@adventroofing.com<br>Estimates: estimates@adventroofing.com<br>Emergency: emergency@adventroofing.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h3>Business Hours</h3>
+                            <p>Monday - Friday: 8:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 4:00 PM<br>Emergency Services: 24/7</p>
+                        </div>
+                    </div>
+                    
+                    <div class="emergency-notice">
+                        <h3><i class="fas fa-exclamation-triangle"></i> Emergency Service</h3>
+                        <p>For after-hours emergencies, call our emergency line. We respond within 60 minutes.</p>
+                        <a href="tel:5551234357" class="btn btn-emergency">
+                            <i class="fas fa-phone"></i> Emergency: (555) 123-HELP
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section-padding map-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Our Location</h2>
+            <div class="map-container animate-on-scroll">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.183792572885!2d-73.98784468459386!3d40.757974979327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square%2C%20New%20York%2C%20NY%2010036!5e0!3m2!1sen!2sus!4v1684529633170!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section-padding faq-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item animate-on-scroll">
+                    <div class="faq-question">
+                        <h3>How long does a roof installation typically take?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Most residential roof installations take 1-3 days, depending on the size and complexity of the roof, weather conditions, and the materials being used. We provide a detailed timeline during our initial consultation.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item animate-on-scroll" style="animation-delay: 0.1s;">
+                    <div class="faq-question">
+                        <h3>Do you offer free estimates?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we provide free, no-obligation estimates for all roofing projects. Our estimates are detailed and include all materials, labor, and timeline information.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item animate-on-scroll" style="animation-delay: 0.2s;">
+                    <div class="faq-question">
+                        <h3>What roofing materials do you work with?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We specialize in asphalt shingles, metal roofing, tile, slate, and flat roof systems. We'll help you choose the best material for your budget, climate, and aesthetic preferences.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item animate-on-scroll" style="animation-delay: 0.3s;">
+                    <div class="faq-question">
+                        <h3>Do you handle insurance claims?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we have extensive experience working with insurance companies. We can help document damage, provide estimates, and work directly with your insurance adjuster to ensure proper coverage.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item animate-on-scroll" style="animation-delay: 0.4s;">
+                    <div class="faq-question">
+                        <h3>What warranties do you offer?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer manufacturer warranties on materials (typically 20-50 years) and our own workmanship warranty (typically 10-25 years). All warranty details are provided in writing before work begins.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item animate-on-scroll" style="animation-delay: 0.5s;">
+                    <div class="faq-question">
+                        <h3>How do I know if I need a roof repair or replacement?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our free inspection service can determine whether repair or replacement is needed. Factors include roof age, extent of damage, and overall condition. We'll provide honest recommendations based on what's best for your home.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section contact-cta">
+        <div class="container">
+            <div class="cta-content animate-on-scroll">
+                <h2>Still Have Questions?</h2>
+                <p>Our roofing experts are here to help. Contact us today for personalized assistance.</p>
+                <div class="cta-buttons">
+                    <a href="tel:5551237663" class="btn">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                    <a href="mailto:info@adventroofing.com" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Email Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">Advent <span>Roofing</span></div>
+                    <p>Premium roofing solutions with over 20 years of experience. We protect your home with quality craftsmanship and reliable service.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="gallery.html">Project Gallery</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Roofing Street, NY 10001</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-ROOF</p>
+                    <p><i class="fas fa-envelope"></i> info@adventroofing.com</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 6:00 PM</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Advent Roofing. All rights reserved. | Designed with <i class="fas fa-heart"></i> for premium roofing solutions</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
